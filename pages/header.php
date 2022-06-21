@@ -21,7 +21,7 @@
                 <li><a href="#">Shop</a></li>
                 <li><a href="#">Services</a></li>
                 <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#">Blogs</a></li>
                 <li><a href="./login.php">SignUp | SignIn </a></li>
             </ul>
         </nav>
