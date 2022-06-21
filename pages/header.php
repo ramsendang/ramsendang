@@ -7,7 +7,7 @@
     <title>Ramsendang</title>
     <link rel="shortcut icon" href="images/logo/fire.jpg" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="fontawesom/css/all.css">
     <script src="js/index.js" defer></script>
 </head>
 <body>
@@ -23,7 +23,7 @@
             </ul>
         </nav>
         <label id="icon">
-            <i class="fas fa-bars" onclick="toggleNavabar()"></i>
+            <i class="fa-solid fa-bars" onclick="toggleNavabar()"></i>
         </label>
     </header>
     
