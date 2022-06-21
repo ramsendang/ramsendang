@@ -14,3 +14,4 @@ jobs:
         server: ftp.ramsendang.com.np
         username: admin@ramsendang.com.np
         password: ${{ secrets.ftp_password }}
+        server-dir: /public_html/
