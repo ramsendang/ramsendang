@@ -93,6 +93,7 @@ nav ul li a.active, nav ul li a:hover{
         left: -100%;
         text-align: center;
         transition: all .5s;
+        z-index: 100;
     }
 
     nav ul{
@@ -140,6 +141,7 @@ nav ul li a.active, nav ul li a:hover{
 }
 .banner_story{
     position: absolute;
+    z-index: 50;
     top: 50%;
     left: 50%;
     transform:translate(-50%, -50%);
@@ -172,6 +174,70 @@ nav ul li a.active, nav ul li a:hover{
 }
 .banner_story a:hover, .banner_story a:active{
     background-color: green;
+}
+@media (max-width: 920px){
+    .banner_story h1{
+        font-size: 33px;
+        padding: 20px 0;
+    }
+    .banner_story h4{
+        font-size: 18px;
+        padding-bottom: 70px;
+    }
+    /* for banner button  */
+    .banner_story a{
+        font-size: 18px;
+        padding: 5px 15px;
+        border: 1px solid green;
+        margin-top: 10px;
+        color: white;
+        border-radius: 10px;
+    }
+}
+@media (max-width: 767px){
+    .banner_story h1{
+        font-size: 28px;
+        padding: 12px 0;
+    }
+    .banner_story h4{
+        font-size: 20px;
+        padding-bottom: 70px;
+    }
+    /* for banner button  */
+    .banner_story a{
+        font-size: 20px;
+        padding: 5px 15px;
+        border: 1px solid green;
+        margin-top: 10px;
+        color: white;
+        border-radius: 10px;
+    }
+}
+
+@media (max-width: 574px){
+    .main_container{
+        min-height: 504px;
+    }
+    .homepage_banner{
+        height: 504px;
+    }
+    .banner_story h1{
+        font-size: 18px;
+        padding: 20px 0;
+    }
+    .banner_story h4{
+        font-size: 16px;
+        padding-bottom: 50px;
+    }
+    /* for banner button  */
+    .banner_story a{
+        font-size: 18px;
+        padding: 10px 30px;
+        border: 1px solid green;
+        margin-top: 10px;
+        color: white;
+        border-radius: 10px;
+    }
 }
 
 /* ending of the welcome page styling  */
