@@ -126,10 +126,57 @@ nav ul li a.active, nav ul li a:hover{
 
 /* starting of the welcome page styling  */
 .main_container{
-    min-height: 100vh;
+    width: 100%;
+    min-height: 674px;
+}
+.homepage_banner{
+    width: 100%;
+    height: 674px;
+    position: relative;
+}
+.homepage_banner img{
+    width: 100%;
+    height: inherit;
+}
+.banner_story{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    height: 50%;
+    width: 60%;
+    color: White;
+    text-align: center;
+    padding: 20px 20px;
+    background-color: rgba(0,0,0,0.2);
+    box-shadow: 30px 30px 40px green;
+    border-radius: 5px;
+}
+/* for banner text  */
+.banner_story h1{
+    font-size: 43px;
+    padding: 20px 0;
+}
+.banner_story h4{
+    font-size: 36px;
+    padding-bottom: 50px;
+}
+/* for banner button  */
+.banner_story a{
+    font-size: 26px;
+    padding: 10px 30px;
+    border: 1px solid green;
+    margin-top: 10px;
+    color: white;
+    border-radius: 10px;
+}
+.banner_story a:hover, .banner_story a:active{
+    background-color: green;
 }
 
 /* ending of the welcome page styling  */
+
+
 
 /* for preloader animation  */
 #preloader{
@@ -141,6 +188,7 @@ nav ul li a.active, nav ul li a:hover{
     background-size: 12%;
 }
 /* for preloader animation  */
+
 
 
 /* starting of footer styling  */

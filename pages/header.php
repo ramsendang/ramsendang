@@ -22,7 +22,7 @@
                 <li><a href="#">Services</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Blogs</a></li>
-                <li><a href="./login.php">SignUp | SignIn </a></li>
+                <li><a href="./login.php">Signin </a></li>
             </ul>
         </nav>
         <label id="icon">
