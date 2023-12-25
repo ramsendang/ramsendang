@@ -1,5 +1,5 @@
 ### Hi there 👋
-Iam associate QA Engineer at Seva Development.  I have hands on experience on manual testing as well as automation testing. I have maily done automation for remote desktop application. I also love coding. I am good at both front end and back end development.
+Iam associate QA Engineer, Student and A Full Stack Developer.  I have hands on experience on manual testing as well as automation testing. I have maily done automation for remote desktop application. I also love coding. I am good at both front end and back end development.
 <!--
 **ramsendang/ramsendang** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
